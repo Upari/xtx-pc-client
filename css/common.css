@@ -1,1 +1,45 @@
 /* 头尾各个页面相同的样式 */
+
+/* 版心 */
+.wrapper {
+    margin: 0 auto;
+    width: 1240px;                                                                                                                                  
+}
+
+/* 快捷导航 */
+.shortcut {
+    height: 52px;
+    background-color: #333;
+}
+
+.shortcut .wrapper {
+    display: flex;
+    justify-content: flex-end;
+    height: 52px;
+    /* background-color: pink; */
+}
+
+.shortcut ul {
+    display: flex;
+    line-height: 52px;
+    font-size: 14px;
+}
+
+.shortcut ul li a {
+    padding: 0 15px;
+    border-right: 1px solid #999;
+    color: #FFF;
+}
+
+.shortcut ul li:last-child a {
+    border-right: none;
+}
+
+.shortcut ul li .login {
+    color: #5EB69C;
+}
+
+.shortcut ul li .iconfont {
+    margin-right: 4px;
+    vertical-align: middle;
+}
