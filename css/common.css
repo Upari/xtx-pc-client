@@ -143,3 +143,124 @@
     font-size: 14px;
     line-height: 15px;
 }
+
+/* 底部 */
+.footer {
+    background-color: #F5F5F5;
+    height: 580px;
+}
+
+/* 服务 */
+.footer .service {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 180px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.footer .service ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .service li {
+    display: flex;
+    width: 190px;
+    height: 58px;
+}
+
+.footer .service li h5 {
+    width: 58px;
+    height: 58px;
+    margin-right: 20px;
+    background-image: url(../images/sprite.png);
+}
+
+.footer .service li:nth-child(2) h5 {
+    background-position: 0 -58px;
+}
+.footer .service li:nth-child(3) h5 {
+    background-position: 0 -116px;
+}
+.footer .service li:nth-child(4) h5 {
+    background-position: 0 -174px;
+}
+
+.footer .service li p {
+    font-size: 28px;
+    line-height: 58px;
+}
+
+/* 帮助中心 */
+.footer .help {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    height: 300px;
+}
+
+/* 帮助中心左侧区域 */
+.footer .help .left {
+    display: flex;
+}
+
+.footer .help .left dl {
+    margin-right: 84px;
+}
+.footer .help .left dl:last-child {
+    margin-right: 0;
+}
+
+.footer .help .left dt {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.footer .help .left dd a{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #969696;
+}
+
+.footer .help .left .iconfont {
+    color: #00BE9A ;
+}
+
+/* 帮助中心右侧区域 */
+.footer .help .right ul {
+    display: flex;
+}
+
+.footer .help .right ul li:first-child {
+    margin-right: 55px;
+}
+
+.footer .help .right ul .pic {
+    width: 120px;
+    height: 120px;
+}
+
+.footer .help .right ul p {
+    margin-top: 10px;
+    color: #969696;
+    text-align: center;
+}
+
+/* 版权区域 */
+.footer .copyright {
+    font-size: 16px;
+    color: #A1A1A1;
+    text-align: center;
+    height: 60px;
+}
+
+.footer .copyright p {
+    margin-bottom: 10px;
+}
+
+.footer .copyright a {
+    margin: 0 10px;
+    color: inherit;
+}
