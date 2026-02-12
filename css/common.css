@@ -43,3 +43,103 @@
     margin-right: 4px;
     vertical-align: middle;
 }
+
+/* 头部 */
+.header {
+    display: flex;
+    height: 88px;
+    /* background-color: greenyellow; */
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.header .logo a {
+    display: block;
+    width: 200px;
+    height: 88px;
+    margin-right: 40px;
+    /* background-color: yellow; */
+    font-size: 0;
+    background-image: url(../images/logo.png);
+}
+
+/* 导航区域 */
+.header .nav {
+    margin-top: 33px;
+    margin-right: 75px;
+    width: 673px;
+    /* background-color: red; */
+}
+
+.header .nav ul {
+    display: flex;
+    justify-content: space-between;
+    /* font-size: 16px;  base.css设置了*/
+}
+
+.header .nav ul a {
+    padding-bottom: 10px;
+}
+
+.header .nav li a:hover {
+    color: #5EB69C;
+    border-bottom: #5EB69C solid 1px;
+}
+
+/* 搜索框 */
+.header .search {
+    display: flex;
+    margin-top: 23px;
+    margin-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 170px;
+    height: 42px;
+    align-items: center;
+    /* background-color: red; */
+    border-bottom: #F4F4F4 solid 2px;
+}
+
+.header .search .iconfont {
+    color: #ccc;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.header .search input {
+    /* 用于清除浏览器input默认宽度, 使flex 1 生效 */
+    width: 0;
+    flex: 1;
+    height: 22px;
+}
+
+.header .search input::placeholder {
+    color: #ccc;
+    font-size: 16px;
+}
+
+/* 购物车 */
+.cart {
+    position: relative;
+    margin-top: 22px;
+}
+
+.cart .iconfont {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.cart i {
+    position: absolute;
+    /* 宽靠内容撑开 */
+    padding-right: 6px;
+    padding-left: 6px;
+    background-color: #E26237;
+    height: 15px;
+    left: 13px;
+    top: 1px;
+    border-radius: 7.5px;
+    color: #FFFEFE;
+    font-size: 14px;
+    line-height: 15px;
+}
