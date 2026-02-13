@@ -169,3 +169,68 @@
     text-align: center;
     color: #A1A1A1 ;
 }
+
+/* 热门品牌 */
+/* 头部 */
+.brand {
+    margin-top: 60px;
+    background-color: #F5F5F5;
+    height: 468px;
+}
+
+.brand .head {
+    position: relative;
+    height: 122px;
+    display: flex;
+    align-items: flex-end;
+    padding: 40px 0;
+}
+
+.brand .head h3 {
+    font-size: 30px;
+    margin-right: 35px;
+}
+
+.brand .head p {
+    color: #A1A1A1;
+}
+
+.brand .head ul {
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 52px;
+}
+
+.brand .head ul a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #e2e2e2;
+    line-height: 20px;
+    text-align: center;
+    cursor: initial;
+}
+
+.brand .head ul .active {
+    background-color: #00be9a;
+    cursor: pointer;
+}
+
+.brand .head ul .iconfont {
+    color: white;
+}
+
+/* 内容 */
+.brand .content ul {
+    height: 306px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand .content ul li {
+    width: 244px;
+    height: 306px;
+}
