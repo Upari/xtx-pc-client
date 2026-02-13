@@ -234,3 +234,253 @@
     width: 244px;
     height: 306px;
 }
+
+/* 大主题 */
+.big-theme {
+    margin-top: 20px;
+}
+
+/* 头部 */
+.big-theme .head {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-theme .head h3 {
+    font-size: 30px;
+}
+
+.big-theme .head .right {
+    display: flex;
+}
+
+.big-theme .head ul {
+    display: flex;
+    width: 358px;
+    margin-right: 58px;
+}
+
+.big-theme .head ul li {
+    padding: 0 7px;
+    /* width: 46px; */
+    height: 20px;
+    line-height: 20px;
+}
+
+.big-theme .head ul .active {
+    background-color: #00be9a;
+}
+
+.big-theme .head ul .active a {
+    color: white;
+}
+
+.big-theme .more span {
+    color: #A1A1A1;
+    margin-right: 10px;
+}
+
+.big-theme .more .iconfont {
+    font-size: 16;
+    color: #A1A1A1;
+}
+
+
+/* 内容 */
+
+.big-theme .content {
+    display: flex;
+}
+
+/* 左侧 */
+.big-theme .content .left img {
+    width: 248px;
+    height: 610px;
+    margin-right: 24px;
+}
+
+/* 右侧 */
+.big-theme .content .right {
+    display: flex;
+}
+
+.big-theme .content .right ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.big-theme .content .right li {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
+    width: 242px;
+    height: 305px;
+    border: #fff solid 2px;
+}
+
+.big-theme .content .right li img {
+    width: 200px;
+    height: 180px;
+    margin: 10px 21px;
+}
+
+.big-theme .content .right li h4 {
+    margin: 0 21px 7px 21px;
+    height: 57px;
+    overflow: hidden;
+
+}
+
+.big-theme .content .right ul li div {
+    margin: 0 21px 0px 21px;
+    color: #AF2F22;
+}
+
+.big-theme .content .right li div span {
+    font-size: 22px;
+}
+
+/* 产品底部过渡区域 */
+.big-theme .content .right li .cover {
+    position: absolute;
+    left: 0;
+    bottom: -86px;
+    width: 242px;
+    height: 84px;
+    margin-left: 0;
+    color: white;
+    background-color: #00BE9A;
+    text-align: center;
+    padding-top: 15px;
+    transition: all 0.5s;
+}
+
+.big-theme .content .right li .cover p:first-child {
+    font-size: 18px;
+}
+
+.big-theme .content .right li .cover p:nth-child(2) {
+    width: 120px;
+    height: 0.5px;
+    margin: 3px auto 6px;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.big-theme .content .right li .cover p:last-child {
+    font-size: 13px;
+}
+
+.big-theme .content .right li .cover .iconfont {
+    font-size: 10px;
+}
+
+.big-theme .content .right li:hover .cover {
+    bottom: 0;
+}
+
+.big-theme .content .right li:hover {
+    border: #00BE9A solid 2px;
+}
+
+/* 最新专题 */
+/* head */
+.news {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    height: 427px;
+}
+
+.news .head {
+    display: flex;
+    justify-content: space-between;
+    line-height: 42px;
+    margin-bottom: 30px;
+}
+
+.news .head h3 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.news .head span {
+    color: #A1A1A1;
+}
+
+.news .head .right {
+    line-height: 42px;
+}
+
+.news .head .right .iconfont {
+    font-size: 16px;
+    color: #A1A1A1;
+}
+
+/* content */
+.news .content ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news .content li {
+    position: relative;
+    width: 405px;
+    height: 355px;
+}
+
+.news .content .foot {
+    display: flex;
+    justify-content: space-between;
+    width: 405px;
+    height: 67px;
+    padding: 23px 15px 0;
+    font-size: 14px;
+    color: #666666;
+}
+
+.news .content .foot .left {
+    display: flex;
+    justify-content: space-between;
+    width: 118px;
+}
+
+.news .content .foot .icon-favorites-fill {
+    color: red;
+}
+
+/* 图片上文字 */
+.news .content img {
+    width: 405px;
+    height: 288px;
+}
+
+.news .content .cover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 198px;
+    left: 0;
+    width: 405px;
+    height: 90px;
+    padding: 20px 15px 13.5px;
+    background-image: linear-gradient(180deg, rgba(137,137,137,0.00) 0%, rgba(0,0,0,0.90) 100%);
+    /* background-color: red; */
+    color: white;
+}
+
+.news .content .cover .left h4 {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.news .content .cover .right {
+    width: 79px;
+    height: 25px;
+    color: #AA2113;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+}
